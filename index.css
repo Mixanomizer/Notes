@@ -40,21 +40,18 @@ li{
     border: 1px solid #c6d9ff;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 1%;
+
 }
 
 .btn-success{
     background-color: #0cb400;
-    border-radius: 3px;
-    width: 1.5em;
-    height: 1.5em;;
-    display: flex;
-    justify-content: center;
-    color: aliceblue;
 }
 
 .btn-danger{
     background-color: #df0000;
+}
+
+.btn-status{
     border-radius: 3px;
     width: 1.5em;
     height: 1.5em;;
@@ -75,3 +72,14 @@ li{
 .pading{
     padding: 1%;
 }
+
+.btn{
+    cursor: pointer;
+}
+.text-decoration-line-trought{
+    text-decoration: line-through;
+}
+.btn-completed{
+    background-color: gray;
+}
+
