@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Страница заметок</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="conteiner">
+      <h1>Заметки</h1>
+      <input
+        type="text"
+        placeholder="Введите название"
+        id="title"
+        class="min-st"
+      />
+
+      <button class="min-st btn" id="create">Добавить</button>
+
+      <ul>
+        <li class="pading" id="list">
+          <span>Название</span>
+          <span class="btn-position">
+            <span class="btn-success btn">&check;</span>
+            <span class="btn btn-danger">&times;</span>
+          </span>
+        </li>
+      </ul>
+    </div>
+  </body>
+</html>
